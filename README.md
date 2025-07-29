@@ -9,7 +9,7 @@ The behavioral sequence incorporates three types of learning behaviors: answerin
 
 
 ## Experiment Result
-The overall performance comparison on three real-world datasets. Best results in bold, suboptimal underlined. $^{\uparrow}$  indicates performance improved with LBE compared to the baseline. Baseline represents the base model $\mathcal{M}$ using LBE.
+The overall performance comparison on three real-world datasets. Best results in bold. $^{\uparrow}$  indicates performance improved with LBE compared to the baseline. Baseline represents the base model $\mathcal{M}$ using LBE.
 
 |      |    Datasets      | Assist09 |         |         | Assist12 |         |         |  Junyi  |         |         |
 | :----------: | :------: | :------: | :-----: | :-----: | :------: | :-----: | :-----: | :-----: | :-----: | :-----: |
