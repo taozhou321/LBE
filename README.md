@@ -9,6 +9,7 @@ The behavioral sequence incorporates three types of learning behaviors: answerin
 
 
 ## Experiment Result
+The overall performance comparison on three real-world datasets. Best results in bold, suboptimal underlined. $^{\uparrow}$  indicates performance improved with LBE compared to the baseline. Baseline represents the base model $\mathcal{M}$ using LBE.
 
 |      |    Datasets      | Assist09 |         |         | Assist12 |         |         |  Junyi  |         |         |
 | :----------: | :------: | :------: | :-----: | :-----: | :------: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -35,6 +36,3 @@ The behavioral sequence incorporates three types of learning behaviors: answerin
 
 where we denote the proposed LBE framework based on BQL-I as LBE-I and that based on BQL-II as LBE-II. 
 
-
-
-Source code and dataset for the paper *Learning Behavior-Driven Knowledge Tracing Enhancement* (under review at AAAI 2026). The implementation will be made publicly available upon completion of the review process.
