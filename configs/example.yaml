@@ -1,0 +1,37 @@
+dataset_path: "./datasets"
+data_name: "assistments09"
+
+checkpoint_dir: .ckpts
+seed: 42
+
+lbe_config:
+  hidden_size: 64 
+  num_blocks: 1
+  num_attn_heads: 8
+  kq_same: True
+  final_fc_dim: 256
+  d_ff: 512
+  l2: 0.00001
+  dropout: 0.15
+
+
+
+
+train_config:
+  seq_len: 100
+  min_len: 5
+  batch_size: 128
+  eval_batch_size: 128
+  num_epochs: 150
+  print_epochs: 1
+  max_grad_norm: -1
+  learning_rate: 0.001
+  optimizer: adam
+  
+  loss: BCE
+
+  ## Model Save
+  save_model: False
+  save_epochs: 1
+  save_model_name: "tmp"
+  log_path: "logs"
